@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bonz.ai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-inner">
+                <a href="index.html">
+                    <img class="logga" src="bilder/logga2.png" alt="header logo" />
+                </a>
+                <div class="header-title">
+                    <h1 class="nav-title">Boka hotellupplevelse</h1>
+                </div>
+                <nav class="nav" id="nav">
+                    <div class="nav-header">
+                        <span class="nav-close" id="nav-close">
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </div>
+                    <ul>
+                        <li><a href="about.html">Om hotellet</a></li>
+                        <li><a href="booking.html">Boka rum</a></li>
+                    </ul>
+                </nav>
+                <span class="nav-btn" id="nav-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </div>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Form Section -->
+<div class="booking-form-container">
+    <form class="booking-form">
+        <div class="form-group">
+            <label for="location">Vart vill du bo?</label>
+            <input type="text" id="location" name="location" placeholder="Ange plats">
+        </div>
+        <div class="form-group">
+            <label for="dates">Ankomst och avresa</label>
+            <input type="text" id="dates" name="dates" placeholder="Ange datum">
+        </div>
+        <div class="form-group">
+            <label for="guests">Personer och rum</label>
+            <input type="text" id="guests" name="guests" placeholder="Ange antal personer och rum">
+        </div>
+        <button type="submit" class="update-button">Uppdatera</button>
+    </form>
+</div>
+
+    <!-- Cards Section -->
+<div class="cards-container">
+    <!-- Card 1 -->
+    <div class="card">
+        <img src="bilder/bild1.jpg" alt="hotell bild 1" class="card-image">
+        <h2>Standard single</h2>
+        <p>Det här hittar du i rummet:</p>
+        <p>
+            Sminkspegel, Skrivbord, TV, Stol/stolar, Strykjärn och strykbräda, Hårtork, 
+            Badrum med dusch eller badkar, Badrumsartiklar, Bord, Dusch, Easy access, 
+            Fritt wifi
+        </p>
+
+        <!-- Info Cards -->
+        <div class="info-card">
+            <p>Ombokningsbar</p>
+            <p>Fri frukost</p>
+            <p class="price">Pris: 1200 SEK/natt</p>
+            <button class="pay-button">Betala nu</button>
+        </div>
+
+        <div class="info-card">
+            <p>Ej ombokningsbar</p>
+            <p>Fri frukost</p>
+            <p class="price">Pris: 1000 SEK/natt</p>
+            <button class="pay-button">Betala nu</button>
+        </div>
+    </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="bilder/bild2.jpg" alt="Bok 2" class="card-image">
+            <h2>Standard double</h2>
+            <p>Det här hittar du i rummet:</p>
+            <p>
+                Sminkspegel, Skrivbord, TV, Stol/stolar, Strykjärn och strykbräda, Hårtork, 
+                Badrum med dusch eller badkar, Badrumsartiklar, Bord, Dusch, Easy access, 
+                Fritt wifi
+            </p>
+    
+            <!-- Info Cards -->
+            <div class="info-card">
+                <p>Ombokningsbar</p>
+                <p>Fri frukost</p>
+                <p class="price">Pris: 1200 SEK/natt</p>
+                <button class="pay-button">Betala nu</button>
+            </div>
+    
+            <div class="info-card">
+                <p>Ej ombokningsbar</p>
+                <p>Fri frukost</p>
+                <p class="price">Pris: 1000 SEK/natt</p>
+                <button class="pay-button">Betala nu</button>
+            </div>
+        </div>
+        
+    <!-- Card 4 -->
+<div class="card">
+    <img src="bilder/bild4.jpg" alt="Bok 4" class="card-image">
+    <h2>Family Room</h2>
+    <p>Det här hittar du i rummet:</p>
+    <p>
+        Sminkspegel, Skrivbord, TV, Stol/stolar, Strykjärn och strykbräda, Hårtork, 
+        Badrum med dusch eller badkar, Badrumsartiklar, Bord, Dusch, Easy access, 
+        Fritt wifi
+    </p>
+
+    <!-- Info Cards -->
+    <div class="info-card">
+        <p>Ombokningsbar</p>
+        <p>Fri frukost</p>
+        <p class="price">Pris: 1200 SEK/natt</p>
+        <button class="pay-button">Betala nu</button>
+    </div>
+
+    <div class="info-card">
+        <p>Ej ombokningsbar</p>
+        <p>Fri frukost</p>
+        <p class="price">Pris: 1000 SEK/natt</p>
+        <button class="pay-button">Betala nu</button>
+    </div>
+</div>
+
+
+    <!-- Card 5 -->
+    <div class="card">
+        <img src="bilder/bild5.jpg" alt="Bok 5" class="card-image">
+        <h2>Deluxe Room</h2>
+        
+        <p>Det här hittar du i rummet:</p>
+        <p>
+            Sminkspegel, Skrivbord, TV, Stol/stolar, Strykjärn och strykbräda, Hårtork, 
+            Badrum med dusch eller badkar, Badrumsartiklar, Bord, Dusch, Easy access, 
+            Fritt wifi
+        </p>
+
+        <!-- Info Cards -->
+        <div class="info-card">
+            <p>Ombokningsbar</p>
+            <p>Fri frukost</p>
+            <p class="price">Pris: 1200 SEK/natt</p>
+            <button class="pay-button">Betala nu</button>
+        </div>
+
+        <div class="info-card">
+            <p>Ej ombokningsbar</p>
+            <p>Fri frukost</p>
+            <p class="price">Pris: 1000 SEK/natt</p>
+            <button class="pay-button">Betala nu</button>
+        </div>
+    </div>
+
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-inner">
+                <img class="logga" src="bilder/logga2.png" alt="footer-logo" />
+                <p class="footer-adress">
+                    text 1
+                </p>
+                <p class="footer-terms">
+                    text 2
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./app.js"></script>
+</body>
+
+</html>
