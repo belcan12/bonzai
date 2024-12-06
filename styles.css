@@ -390,13 +390,14 @@ body {
     margin: 20px 0 10px;
 }
 
-.room-card-description {
+/* BEM */
+.room-card__description {
     font-size: 1rem;
     color: #555;
     margin-bottom: 20px;
 }
 
-.room-card-button {
+.room-card__button {
     display: inline-block;
     padding: 12px 20px;
     background-color: #0073e6;
@@ -408,6 +409,18 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.room-card-button:hover {
-    background-color: #005bb5;
+.room-card__button:hover {
+    background-color: #005bb5; 
 }
+
+.room-card__image {
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover; 
+    margin: 0; 
+    border-radius: 8px 8px 0 0; 
+    border-bottom: none; 
+}
+
+
+
